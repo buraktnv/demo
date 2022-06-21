@@ -17,7 +17,7 @@ const Sidebar = () => {
             alt={`StrepNaz Portakal & Ekinezya Pastil`}
           />
         </div>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 gap-2">
           <div className="border border-[#00B1B2] rounded-2xl p-2 bg-white cursor-pointer">
             <Image
               layout="responsive"

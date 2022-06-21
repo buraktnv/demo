@@ -350,7 +350,7 @@ const Card = ({
           </div>
         </div>
       </div>
-      <div className="flex justify-around w-96 col-span-2">
+      <div className="flex justify-between w-96 col-span-2">
         <div className="flex flex-col gap-8 px-4 items-start">
           <div className="text-[#4CBEC5] font-medium ">Miad</div>{" "}
           <div className="text-[#7E8096] font-medium">{date}</div>

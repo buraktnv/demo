@@ -74,6 +74,7 @@ const svg = {
       width="78.638"
       height="74.818"
       viewBox="0 0 78.638 74.818"
+      className="w-16 h-16"
     >
       <defs>
         <linearGradient
@@ -103,6 +104,7 @@ const svg = {
       width="69.829"
       height="74.818"
       viewBox="0 0 69.829 74.818"
+      className="w-16 h-16"
     >
       <defs>
         <linearGradient
@@ -172,12 +174,12 @@ const Content = () => {
           </svg>
           Tarihe Göre Sırala
         </div>
-        <div className="col-span-2 relative text-[#4CBEC5]">
+        <div className="col-span-2 relative text-[#4CBEC5] flex justify-end">
           <input
             type="text"
             name=""
             id=""
-            className="rounded-full border-l border-[#00B1B2] -l w-full h-full focus:outline-none text-xl px-8 text-center placeholder:text-[#00B1B2]"
+            className="rounded-full border-l border-[#00B1B2] -l w-full h-full focus:outline-none text-xl px-8 text-center placeholder:text-[#00B1B2]  w-[80%]"
             placeholder="Ara"
           />
           <div className="absolute right-0 top-0 h-12 flex items-center justify-center pr-7">
