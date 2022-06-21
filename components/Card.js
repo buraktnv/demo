@@ -320,7 +320,7 @@ const Card = ({
   );
 
   return (
-    <div className="grid grid-cols-5 border px-6 py-4 rounded-[2.5rem]">
+    <div className="grid grid-cols-5 border px-6 py-4 rounded-[2.5rem] border-[#CCCCCC]">
       <div className="flex col-span-2 border-r">
         <div className="w-max h-max rounded-full border border-[#00B1B2] px-5 py-5 flex items-center justify-center mr-6 ">
           {svg}
