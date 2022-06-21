@@ -320,31 +320,33 @@ const Card = ({
   );
 
   return (
-    <div className="flex border px-6 py-4 rounded-[2.5rem] justify-between">
-      <div className="w-max h-max rounded-full border border-[#00B1B2] px-5 py-5 flex items-center justify-center mr-6">
-        {svg}
-      </div>
-      <div className="flex flex-col justify-center border-r pr-16 relative">
-        <div className="text-[#7E8096] font-bold text-xl card__hover relative">
-          {title}
-          <Info />
+    <div className="flex border px-6 py-4 rounded-[2.5rem]">
+      <div className="flex  pr-16 border-r w-[40%]">
+        <div className="w-max h-max rounded-full border border-[#00B1B2] px-5 py-5 flex items-center justify-center mr-6 ">
+          {svg}
         </div>
-        <div className="flex items-center">
-          <div className="flex">
-            {Array(star)
-              .fill()
-              .map((_) => starSvg)}
+        <div className="flex flex-col justify-center relative">
+          <div className="text-[#7E8096] font-bold text-xl card__hover relative">
+            {title}
+            <Info />
           </div>
-          <div className="flex">
-            {Array(5 - star)
-              .fill()
-              .map((_) => starFrame)}
-          </div>
-          <div className="px-2 text-[#F9B000] text-[1.5rem] font-bold">
-            {starPoint}
-          </div>
-          <div className="text-[#7E8096] tracking-tight font-medium">
-            {advertisementCount} İlan
+          <div className="flex items-center">
+            <div className="flex">
+              {Array(star)
+                .fill()
+                .map((_) => starSvg)}
+            </div>
+            <div className="flex">
+              {Array(5 - star)
+                .fill()
+                .map((_) => starFrame)}
+            </div>
+            <div className="px-2 text-[#F9B000] text-[1.5rem] font-bold">
+              {starPoint}
+            </div>
+            <div className="text-[#7E8096] tracking-tight font-medium">
+              {advertisementCount} İlan
+            </div>
           </div>
         </div>
       </div>
