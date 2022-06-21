@@ -1,5 +1,4 @@
 import React from "react";
-import style from "../styles/Sidebar.module.css";
 import Image from "next/image";
 import phillPhoto from "../public/assets/Images/pngwing.com.png";
 
