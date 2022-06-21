@@ -320,8 +320,8 @@ const Card = ({
   );
 
   return (
-    <div className="flex border px-6 py-4 rounded-[2.5rem]">
-      <div className="flex  pr-16 border-r w-[40%]">
+    <div className="grid grid-cols-5 border px-6 py-4 rounded-[2.5rem]">
+      <div className="flex col-span-2 border-r">
         <div className="w-max h-max rounded-full border border-[#00B1B2] px-5 py-5 flex items-center justify-center mr-6 ">
           {svg}
         </div>
@@ -350,17 +350,19 @@ const Card = ({
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-8 items-start px-8">
-        <div className="text-[#4CBEC5] font-medium ">Miad</div>{" "}
-        <div className="text-[#7E8096] font-medium">{date}</div>
-      </div>
-      <div className="flex flex-col gap-8 items-start px-8">
-        <div className="text-[#4CBEC5] font-medium">Stok</div>
-        <div className="text-[#7E8096] font-medium">{stock}</div>
-      </div>
-      <div className="flex flex-col gap-8 items-start px-8">
-        <div className="text-[#4CBEC5] font-bold">Fiyat</div>
-        <div className="text-[#7E8096] font-bold">{price}</div>
+      <div className="flex justify-around w-96 col-span-2">
+        <div className="flex flex-col gap-8 px-4 items-start">
+          <div className="text-[#4CBEC5] font-medium ">Miad</div>{" "}
+          <div className="text-[#7E8096] font-medium">{date}</div>
+        </div>
+        <div className="flex flex-col gap-8 items-start ">
+          <div className="text-[#4CBEC5] font-medium">Stok</div>
+          <div className="text-[#7E8096] font-medium">{stock}</div>
+        </div>
+        <div className="flex flex-col gap-8 items-start ">
+          <div className="text-[#4CBEC5] font-bold">Fiyat</div>
+          <div className="text-[#7E8096] font-bold">{price}</div>
+        </div>
       </div>
       <div>
         {itemCount == null ? (
