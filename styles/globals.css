@@ -54,7 +54,7 @@ a {
 }
 
 .form-group input:checked + label:after {
-  @apply bg-[#4CBEC5] block absolute top-[3.5px] left-[2.5px] w-4 h-4 rounded;
+  @apply bg-[#4CBEC5] block absolute top-[5px] left-[3.5px] w-3.5 h-[14px] rounded;
 }
 .info {
   @apply hidden;
