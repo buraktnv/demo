@@ -199,11 +199,11 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="flex  mt-4 mx-4">
-        <div className="border border-[#00B1B2] rounded-full px-4 py-2 font-medium text-[#7E8096] mx-2">
+      <div className="flex  mt-4 px-4">
+        <div className="border border-[#00B1B2] rounded-full px-6 py-3 font-medium text-[#7E8096] mx-2">
           Yarın Teslim İlanlar
         </div>
-        <div className="border border-[#00B1B2] rounded-full px-4 py-2 font-medium text-[#7E8096] mx-2 bg-[#4CBEC5] text-white">
+        <div className="border border-[#00B1B2] rounded-full px-6 py-3 font-medium text-[#7E8096] mx-2 bg-[#4CBEC5] text-white">
           Hızlı Teslim İlanlar
         </div>
       </div>
