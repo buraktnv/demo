@@ -48,7 +48,7 @@ const Card = ({
   itemCount = null,
 }) => {
   const Info = () => (
-    <div className="grid absolute left-0  z-10 py-6 px-8 border-2 bg-[#E5F3F3] rounded-xl info w-max">
+    <div className="grid absolute left-0  z-10 py-6 px-8 border bg-[#E5F3F3] rounded-xl info w-max border-[#00B1B2] ">
       <div className="flex justify-center items-center">
         <div className="w-max h-max rounded-full border border-[#00B1B2] px-5 py-5 flex items-center justify-center mr-6 bg-white">
           {svg}

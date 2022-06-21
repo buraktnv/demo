@@ -9,6 +9,7 @@ const svg = {
       width="74.808"
       height="74.818"
       viewBox="0 0 74.808 74.818"
+      className="w-16 h-16"
     >
       <defs>
         <linearGradient
