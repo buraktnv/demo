@@ -366,8 +366,8 @@ const Card = ({
       </div>
       <div>
         {itemCount == null ? (
-          <div className="flex items-center justify-center w-full h-full cursor-pointer">
-            <div className="flex px-4 py-2 text-white rounded-full bg-gradient-to-r from-[#FFBE00] to-[#FF7B03] items-center justify-center my-auto">
+          <div className="flex items-center justify-center w-full h-full cursor-pointer ">
+            <div className="flex px-4 py-2 text-white rounded-full bg-gradient-to-r w-5/6 from-[#FFBE00] to-[#FF7B03] items-center justify-center my-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="39.363"
@@ -400,13 +400,13 @@ const Card = ({
                   />
                 </g>
               </svg>
-              <div className="font-medium text-lg">Sepete Ekle</div>
+              <div className="font-medium text-lg w-5/6">Sepete Ekle</div>
             </div>
           </div>
         ) : itemCount === 0 ? (
-          <div className="flex items-center justify-center h-full">
-            <div className="border-[#F39200] border rounded-full">
-              <div className="flex items-center gap-2.5 px-4  rounded-full border-4 border-[#F4F5F9] ">
+          <div className="flex items-center justify-center h-full ">
+            <div className="border-[#F39200] border rounded-full w-5/6">
+              <div className="flex items-center justify-center gap-2.5 px-4  rounded-full border-4 border-[#F4F5F9] ">
                 <button className="border-[#F4F5F9] bg-white h-full ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -424,7 +424,7 @@ const Card = ({
                     />
                   </svg>
                 </button>
-                <div className="text-[#7E8096] font-medium text-xl bg-[#F4F5F9] h-full py-2 px-5">
+                <div className="text-[#7E8096] font-medium text-xl bg-[#F4F5F9] h-full py-1 px-6">
                   {itemCount}
                 </div>
                 <button>
@@ -448,8 +448,8 @@ const Card = ({
           </div>
         ) : (
           <div className="flex items-center justify-center h-full">
-            <div className="border-[#F39200] border rounded-full">
-              <div className="flex items-center gap-2.5 px-4  rounded-full border-4 border-[#F4F5F9] ">
+            <div className="border-[#F39200] border rounded-full w-5/6">
+              <div className="flex items-center justify-center gap-2.5 px-4  rounded-full border-4 border-[#F4F5F9] ">
                 <button className="border-[#F4F5F9] bg-white h-full ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -489,7 +489,7 @@ const Card = ({
                     </g>
                   </svg>
                 </button>
-                <div className="text-[#7E8096] font-medium text-xl bg-[#F4F5F9] h-full py-2 px-5">
+                <div className="text-[#7E8096] font-medium text-xl bg-[#F4F5F9] h-full py-1 px-6">
                   {itemCount}
                 </div>
                 <button>
